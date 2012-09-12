@@ -12,7 +12,7 @@ float maxDistance;
 int spacer;
 
 void setup() {
-  size(640, 360);
+  size(640, 640);
   maxDistance = dist(width/2, height/2, width, height);
   distances = new float[width][height];
   for (int y = 0; y < height; y++) {
